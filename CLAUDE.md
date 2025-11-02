@@ -40,6 +40,10 @@ LazyVim extras are pre-configured plugin bundles for specific languages or featu
 
 Import additional extras in plugin files: `{ import = "lazyvim.plugins.extras.lang.typescript" }`
 
+### Custom Language Support
+
+**Pug/Jade:** Uses `digitaltoad/vim-pug` plugin (lua/plugins/pug.lua) for syntax highlighting. This is the most widely adopted solution with 818+ stars on GitHub.
+
 ## Configuration Files
 
 ### lua/config/lazy.lua
